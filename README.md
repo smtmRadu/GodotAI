@@ -1,2 +1,2 @@
 # GodotRL
-Reinforcement Learning within Godot using TorchSharp.
+A tiny library for Reinforcement Learning using Jolt physics system and TorshSharp in Godot.

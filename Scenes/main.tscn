@@ -1,0 +1,50 @@
+[gd_scene load_steps=7 format=3 uid="uid://ci8vnfy2jo3sb"]
+
+[ext_resource type="Script" path="res://Scripts/Main.cs" id="1_11g16"]
+[ext_resource type="PackedScene" uid="uid://c37a7rmlbqg5i" path="res://Prefabs/agent.tscn" id="2_ngaww"]
+[ext_resource type="PackedScene" uid="uid://b4vdphgovye2k" path="res://GLBs/floor.glb" id="3_h0tyo"]
+[ext_resource type="Script" path="res://Scripts/Walker.cs" id="4_i4axh"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_wd5sf"]
+rough = true
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_u10jc"]
+size = Vector3(18.9915, 1.70093, 19.3326)
+
+[node name="Main" type="Node3D" node_paths=PackedStringArray("fpsLabel")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.51119, 0, 0)
+script = ExtResource("1_11g16")
+fpsLabel = NodePath("Label")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.999346, 0.014428, 0.0331511, -0.0149551, 0.999765, 0.0157073, -0.0329167, -0.0161928, 0.999327, 0.316058, 1.30974, 2.84845)
+current = true
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.24884, -0.844034, -1.08243)
+physics_material_override = SubResource("PhysicsMaterial_wd5sf")
+freeze = true
+
+[node name="floor" parent="RigidBody3D" instance=ExtResource("3_h0tyo")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0330811, -0.00622559, -0.0538939)
+shape = SubResource("BoxShape3D_u10jc")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 60.0
+offset_top = 42.0
+offset_right = 257.0
+offset_bottom = 143.0
+text = "FPS: "
+
+[node name="agent" parent="." instance=ExtResource("2_ngaww")]
+transform = Transform3D(0.145, 0, 0, 0, 0.145, 0, 0, 0, 0.145, -0.0356331, 1.24629, -0.090504)
+script = ExtResource("4_i4axh")
+metadata/_edit_group_ = true
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.837318, 0.546716, 0, -0.546716, 0.837318, 10.7447, 11.6336, 5.96167)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="DirectionalLight3D"]
+transform = Transform3D(1, 0, 0, 0, 0.837318, -0.546716, 0, 0.546716, 0.837318, -9.2528, -4.72077, -11.5594)
