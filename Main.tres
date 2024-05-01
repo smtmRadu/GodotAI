@@ -1,0 +1,18 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://ReinforcementLearning/Model.cs" id="1_sdmen"]
+
+[resource]
+script = ExtResource("1_sdmen")
+Name = "Main"
+ObservationShape = PackedInt64Array(10)
+StateStack = 1
+ContinuousActions = 10
+DiscreteActions = 0
+HiddenSize = 128
+LayersNum = 2
+NormalizeObservations = true
+Steps = 0
+vNetSerialized = ""
+muNetSerialized = ""
+sigmaNetSerialized = ""

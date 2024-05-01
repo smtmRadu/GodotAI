@@ -1,12 +1,124 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Development\\GodotTraining\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\Development\\GodotRL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|e:\\development\\godotrl\\reinforcementlearning\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|solutionrelative:reinforcementlearning\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|e:\\development\\godotrl\\reinforcementlearning\\poseresetter3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|solutionrelative:reinforcementlearning\\poseresetter3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|e:\\development\\godotrl\\reinforcementlearning\\sensors\\bodycontroller3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|solutionrelative:reinforcementlearning\\sensors\\bodycontroller3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|e:\\development\\godotrl\\reinforcementlearning\\agent3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|solutionrelative:reinforcementlearning\\agent3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|e:\\development\\godotrl\\scripts\\walker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|solutionrelative:scripts\\walker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|e:\\development\\godotrl\\reinforcementlearning\\trainers\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C42CF603-BA5F-46F0-BDAF-B5B1CC3BB2E1}|Godot Training.csproj|solutionrelative:reinforcementlearning\\trainers\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 75,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Walker.cs",
+              "DocumentMoniker": "E:\\Development\\GodotRL\\Scripts\\Walker.cs",
+              "RelativeDocumentMoniker": "Scripts\\Walker.cs",
+              "ToolTip": "E:\\Development\\GodotRL\\Scripts\\Walker.cs",
+              "RelativeToolTip": "Scripts\\Walker.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:47:49.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Agent3D.cs",
+              "DocumentMoniker": "E:\\Development\\GodotRL\\ReinforcementLearning\\Agent3D.cs",
+              "RelativeDocumentMoniker": "ReinforcementLearning\\Agent3D.cs",
+              "ToolTip": "E:\\Development\\GodotRL\\ReinforcementLearning\\Agent3D.cs",
+              "RelativeToolTip": "ReinforcementLearning\\Agent3D.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAASwGEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:43:00.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model.cs",
+              "DocumentMoniker": "E:\\Development\\GodotRL\\ReinforcementLearning\\Model.cs",
+              "RelativeDocumentMoniker": "ReinforcementLearning\\Model.cs",
+              "ToolTip": "E:\\Development\\GodotRL\\ReinforcementLearning\\Model.cs",
+              "RelativeToolTip": "ReinforcementLearning\\Model.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAAAKcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:15:18.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BodyController3D.cs",
+              "DocumentMoniker": "E:\\Development\\GodotRL\\ReinforcementLearning\\Sensors\\BodyController3D.cs",
+              "RelativeDocumentMoniker": "ReinforcementLearning\\Sensors\\BodyController3D.cs",
+              "ToolTip": "E:\\Development\\GodotRL\\ReinforcementLearning\\Sensors\\BodyController3D.cs",
+              "RelativeToolTip": "ReinforcementLearning\\Sensors\\BodyController3D.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:48:35.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PoseResetter3D.cs",
+              "DocumentMoniker": "E:\\Development\\GodotRL\\ReinforcementLearning\\PoseResetter3D.cs",
+              "RelativeDocumentMoniker": "ReinforcementLearning\\PoseResetter3D.cs",
+              "ToolTip": "E:\\Development\\GodotRL\\ReinforcementLearning\\PoseResetter3D.cs",
+              "RelativeToolTip": "ReinforcementLearning\\PoseResetter3D.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA4wDQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:07:36.661Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 119,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Trainer.cs",
+              "DocumentMoniker": "E:\\Development\\GodotRL\\ReinforcementLearning\\Trainers\\Trainer.cs",
+              "RelativeDocumentMoniker": "ReinforcementLearning\\Trainers\\Trainer.cs",
+              "ToolTip": "E:\\Development\\GodotRL\\ReinforcementLearning\\Trainers\\Trainer.cs",
+              "RelativeToolTip": "ReinforcementLearning\\Trainers\\Trainer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:31:04.614Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

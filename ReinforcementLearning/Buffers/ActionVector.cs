@@ -19,12 +19,12 @@ namespace ReinforcementLearning
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="continuous">unnormalized continuous values</param>
-        /// <param name="discrete">The onehotvec</param>
-        public ActionVector(torch.Tensor continuous, torch.Tensor discrete)
+        /// <param name="continuous_unsquashed">unnormalized continuous values</param>
+        /// <param name="discrete_onehot">The onehotvec</param>
+        public ActionVector(torch.Tensor continuous_unsquashed, torch.Tensor discrete_onehot)
         {
-            DiscreteAction = discrete.argmax(dim: -1).item<int>();
-            ContinuousActions = continuous.tanh().data<float>().ToArray();
+            DiscreteAction = discrete_onehot.argmax(dim: -1).item<int>();
+            ContinuousActions = continuous_unsquashed.tanh().data<float>().ToArray();
         }
 
         public void Clear()

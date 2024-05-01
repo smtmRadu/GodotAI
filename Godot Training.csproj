@@ -7,7 +7,6 @@
     <RootNamespace>GodotTraining</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="TorchSharp" Version="0.102.4" />
     <PackageReference Include="TorchSharp-cuda-windows" Version="0.102.4" />
   </ItemGroup>
 </Project>

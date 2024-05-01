@@ -1,4 +1,7 @@
-[gd_scene load_steps=51 format=3 uid="uid://c37a7rmlbqg5i"]
+[gd_scene load_steps=53 format=3 uid="uid://c37a7rmlbqg5i"]
+
+[ext_resource type="Script" path="res://Scripts/Walker.cs" id="1_k3fpa"]
+[ext_resource type="Script" path="res://ReinforcementLearning/Sensors/BodyController3D.cs" id="2_5kttv"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8vr61"]
 load_path = "res://.godot/imported/agent_AgentTexture.png-6346f0b2e9b7cbf91105b6b11fa9d161.s3tc.ctex"
@@ -644,8 +647,14 @@ shadow_mesh = SubResource("ArrayMesh_6304o")
 [sub_resource type="BoxShape3D" id="BoxShape3D_0vefg"]
 size = Vector3(0.7229, 0.264832, 1.18945)
 
-[node name="agent" type="Node3D"]
+[node name="agent" type="Node3D" node_paths=PackedStringArray("bodyController")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0356331, 0.39657, 0.918847)
+script = ExtResource("1_k3fpa")
+bodyController = NodePath("BodyController")
+
+[node name="BodyController" type="Node" parent="." node_paths=PackedStringArray("bodyparts")]
+script = ExtResource("2_5kttv")
+bodyparts = [NodePath("../Head"), NodePath("../Chest"), NodePath("../Torso")]
 
 [node name="Head" type="RigidBody3D" parent="."]
 transform = Transform3D(-1, 0, 3.25841e-07, 0, 1, 0, -3.25841e-07, 0, -1, 0.00036367, 6.04199, -0.0610361)
